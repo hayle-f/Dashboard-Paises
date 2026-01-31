@@ -49,6 +49,6 @@ const paisesSchema = new mongoose.Schema({
     creator: { type: String, required: true, default:"Haylén Ferrario" }
 });
 
-const Paises = mongoose.model('Pais', paisesSchema, 'Grupo-02');
+const Paises = mongoose.model('Pais', paisesSchema, 'Paises');
 
 export default Paises;
